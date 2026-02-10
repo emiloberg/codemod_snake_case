@@ -1,0 +1,16 @@
+{
+  "name": "codemod-snakecase",
+  "version": "1.0.0",
+  "description": "A jscodeshift codemod that transforms JavaScript/TypeScript identifiers to snake_case",
+  "main": "transform.js",
+  "scripts": {
+    "transform": "jscodeshift -t transform.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "jscodeshift": "^17.1.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
